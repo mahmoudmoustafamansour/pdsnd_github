@@ -40,7 +40,7 @@ def get_filters():
         else:
             break
 
-    # Get user input for day of week (all, monday, tuesday, ... sunday)
+    # Get user input for day of week (all, monday, tuesday, wednesday, ... sunday)
     while True:
         input_day = input("Please select a day or all:").lower()
         if input_day not in day:
