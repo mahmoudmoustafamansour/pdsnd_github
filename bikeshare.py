@@ -31,7 +31,7 @@ def get_filters():
         else:
             break
 
-    # Get user input for month (all, january, february, ... , june)
+    # Get user input for month (all, january, february, march, ... , june)
     while True:
         input_month = input("Please select a month or all:").lower()
         if input_month not in month:
@@ -40,7 +40,7 @@ def get_filters():
         else:
             break
 
-    # Get user input for day of week (all, monday, tuesday, ... sunday)
+    # Get user input for day of week (all, monday, tuesday, wednesday, ... sunday)
     while True:
         input_day = input("Please select a day or all:").lower()
         if input_day not in day:
