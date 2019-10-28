@@ -44,7 +44,7 @@ def get_filters():
     while True:
         input_day = input("Please select a day or all:").lower()
         if input_day not in day:
-            print("Invalid input day")
+            print("Invalid input week day")
             continue
         else:
             break
